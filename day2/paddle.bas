@@ -208,8 +208,8 @@ Function actorCollideSpecial (a1 As actor, a2 As actor, a2hspeed As Integer, a2v
     r2x = a2.x + a2.w + a2hspeed
     l1y = a1.y
     l2y = a2.y + a2vspeed
-    r1y = a1.y + a1.y
-    r2y = a2.y + a2.y + a2vspeed
+    r1y = a1.y + a1.h
+    r2y = a2.y + a2.h + a2vspeed
 
     If l1x >= l2x And l1x <= r2x And l1y >= l2y And l1y <= r2y Then
         o = 1

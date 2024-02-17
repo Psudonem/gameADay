@@ -1,0 +1,9 @@
+AudioStreamPlayer2D
+Timer
+Label
+CanvasLayer
+CollisionShape2D
+Area2D
+StaticBody2D
+ColorRect
+CharacterBody2D

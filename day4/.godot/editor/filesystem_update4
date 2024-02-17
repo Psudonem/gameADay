@@ -1,0 +1,6 @@
+res://default_env.tres
+res://idk.tscn
+res://idk.gd
+res://Player.gd
+res://Ball.gd
+res://CPU.gd
